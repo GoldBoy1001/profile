@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('html/head.html',{
+"title":"Profile"
+})
+
+<body>
+	<div class="wrapper">
+	<!-- @@include('html/header.html',{}) -->
+		<main class="main">
+			<div class="main__body">
+				<section class="profile">
+					<aside class="profile__aside"></aside>
+					<div class="profile__body">
+						<section class="profile__person person">
+							<h3 class="person__title">Персональная информация <span></span></h3>
+							<div class="person__image">
+								<img src="@img/foto.jpg" alt="Foto">
+							</div>
+							<h4 class="person__subtitle">Состоит в <span>Etermiti Digital</span> </h4>
+							<ul class="person__data data">
+								<li class="data__item"><span>ФИO:</span>Зеленский Иван</li>
+								<li class="data__item"><span>Направление:</span>Ремонт бытовой техники</li>
+								<li class="data__item"><span>Поднаправление:</span>ХЛД,ПМ,СМ</li>
+								<li class="data__item "><span>Телефон:</span>+7(900) 900-60-70</li>
+								<li class="data__item"><span>Город:</span>Сочи</li>
+								<li class="data__item"><span>Мотивация:</span>10%</li>
+								<li class="data__item data__item-status"><span>Статус:</span>Активен</li>																
+							</ul>
+						</section>
+						<section class="profile__detail detail">
+							<section class="detail__history history">
+								<h2 class="history__title">История работы</h2>
+								<div class="history__items">
+									<div class="history__item">
+										<div class="item">
+											<div class="item__date">7 October</div>
+											<div class="item__applications">
+												<div class="item__applications-times">
+													<div class="item__applications-time applications-time-orange">1234 <span>12:34</span></div>
+													<div class="item__applications-time">1234 <span>12:34</span></div>
+												</div>
+												<div class="item__applications-applications">
+													<div class="item__applications-purpose"><span>Назначение</span>Отклонил (истекло время принятия)</div>
+												   <div class="item__applications-application"><span>Заявка</span>Взял в работу</div>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item__date">7 October</div>
+											<div class="item__applications">
+												<div class="item__applications-times">
+													<div class="item__applications-time applications-time-red">1234 <span>12:34</span></div>
+													<div class="item__applications-time">1234 <span>12:34</span></div>
+												</div>
+												<div class="item__applications-applications">
+													<div class="item__applications-purpose"><span>Назначение</span>Отклонил (истекло время принятия)</div>
+													<div class="item__applications-application"><span>Заявка</span>Взял в работу</div>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item__date">8 October</div>
+											<div class="item__applications">
+												<div class="item__applications-time applications-time-grin">1234 <span>12:34</span></div>
+												<div class="item__applications-application"><span>Заявка</span>Закрыл в "Готово"</div>
+											</div>
+										</div>
+										
+									</div>
+									
+								</div>
+								<aside class="nav-list">
+									<div class="nav-list__history">
+										<img src="@img/history-2-svgrepo-com.svg" alt="Icon">
+									</div>
+									<div class="nav-list__statistics">
+										<img src="@img/statistics-svgrepo-com.svg" alt="Icon">
+									</div>
+									<div class="nav-list__settings">
+										<img src="@img/settings-svgrepo-com.svg" alt="Icon">
+									</div>
+									
+								</aside>
+								<span ></span>
+								<img class="detail__hover" src="@img/menu-alt-1-svgrepo-com.svg" alt="">
+							</section>
+							
+						</section>
+						
+					</div>
+					
+				</section>
+			</div>
+			
+		</main>
+	<!-- @@include('html/footer.html',{}) -->
+</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
